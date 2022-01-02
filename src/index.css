@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  background-color: black;
+  font-family: 'Francois One', sans-serif;
+}
+.App{
+  width: 100%;
+}
+
+.container{
+  background-color: black;
+  width: 100%;
+  max-width: 2000px;
+}
+
+.search {
+  width: 80%;
+  font-size: 4rem;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.3em;
+  font-family: 'Francois One', sans-serif;
+}
+
+input:focus{
+   outline: none;
+}
+
+.whiteColor{
+  color: white;
+}
+
+.song-item{
+  color: white;
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.description{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+.spotify-btn{
+  font-size: 1em;
+  border: none;
+  border-radius: 500px;
+  background-color: #2ebd59;
+  color: #ffffff;
+  font-family: 'Francois One', sans-serif;
+  margin-top: 0.8rem;
+}
+
+.album{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cover-art{
+  width: 300px;
+}
+
+.songList {
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+  margin-top: 0.5rem;
+}
+
+.eachSong {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 1em;
+}
+
+.listImage {
+  width: 150px;
+  height: 150px;
+}
+
+.listDescriptions {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.linkButton img{
+  margin-top: 15px;
+}
+
+audio {
+  margin-top: 10px
+}
+
+/* Responsive query */
+@media only screen and (max-width: 530px) {
+  .search {
+    font-size: 2rem;
+  }
+}
